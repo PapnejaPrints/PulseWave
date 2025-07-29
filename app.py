@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("ekg_model.pkl")
 
 st.title("🩺 PulseWave Multi-EKG Abnormality Detector")
-st.markdown("Brahmleen Papneja - Queen's Univeristy Faculty of Health Sciences).")
+st.markdown("Brahmleen Papneja - Queen's Univeristy Faculty of Health Sciences.")
 st.markdown("Upload a CSV file with **one or more EKG signals** (187 columns per row).")
 
 uploaded_file = st.file_uploader("Choose your .csv file", type="csv")
