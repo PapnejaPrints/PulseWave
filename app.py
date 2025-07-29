@@ -49,7 +49,7 @@ if uploaded_file is not None:
         # Add signal index for search/filtering
         results_df.index.name = "Signal #"
         st.markdown("### 🔍 Results")
-                filter_option = st.selectbox("Filter predictions:", ["All", "Normal", "Abnormal"])
+            filter_option = st.selectbox("Filter predictions:", ["All", "Normal", "Abnormal"])
 
         if filter_option == "Normal":
             filtered = results_df[results_df["Prediction"] == "✅ Normal"]
