@@ -1,5 +1,7 @@
-﻿streamlit
+streamlit
+torch
+torchvision
 pandas
 scikit-learn
-matplotlib
 joblib
+matplotlib
